@@ -231,6 +231,7 @@ export const DATA = {
         "PostgreSQL",
         "Cloudflare worker",
         "JWT",
+        "Prisma",
       ],
       links: [
         {
