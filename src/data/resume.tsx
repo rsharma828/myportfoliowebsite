@@ -250,7 +250,7 @@ export const DATA = {
       video: "",
     },
     {
-      title: "MyHoliday Homes",
+      title: "MyHoliday-Homes",
       href: "",
       dates: "May 2024",
       active: true,
