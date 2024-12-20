@@ -3,9 +3,9 @@ import { Icons } from "@/components/icons";
 export const DATA = {
   name: "Rupesh sharma",
   initials: "RS",
-  url: "https://dillion.io",
+  url: "https://rupeshsharma.vercel.app",
   location: "Dhanbad , Jharkhand",
-  locationLink: "https://www.google.com/maps/place/sanfrancisco",
+  locationLink: "https://www.google.com/maps/place/dhanbad",
   description:
     "Aspiring software developer and passionate web developer. I love building projects and helping others. Very active on Twitter.",
   summary:
@@ -41,7 +41,7 @@ export const DATA = {
         icon: Icons.x,
       },
       Youtube: {
-        url: "https://youtube.com/c/",
+        url: "https://www.youtube.com/@rupeshsharma133",
         icon: Icons.youtube,
       },
     },
