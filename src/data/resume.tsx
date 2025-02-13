@@ -54,7 +54,7 @@ export const DATA = {
   "badges": [],
   "location": "",
   "title": "Product Engineer",
-  "logoUrl": "/kalehq.jpeg",
+  "logoUrl": "/kraffic.jpeg",
   "start": "December 2024",
   "end": "Present",
   "description": "Building and optimizing backend infrastructure, developing scalable backend solutions, and integrating AI-driven capabilities into the platform to enhance functionality and performance."
