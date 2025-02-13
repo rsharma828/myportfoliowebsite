@@ -49,17 +49,16 @@ export const DATA = {
 
   work: [
     {
-      company: "Kraffic Media",
-      href: "https://www.kraffic.com/",
-      badges: [],
-      location: "Remote",
-      title: "Full Stack Intern",
-      logoUrl: "/kraffic.jpeg",
-      start: "December 2023",
-      end: "February 2024",
-      description:
-        "Optimized and maintained client websites, integrated new functionalities, and interpreted client specifications to enhance website performance and user experience.",
-    },
+  "company": "KaleHQ",
+  "href": "https://www.kalehq.com/",
+  "badges": [],
+  "location": "",
+  "title": "Product Engineer",
+  "logoUrl": "/kalehq.jpeg",
+  "start": "December 2024",
+  "end": "Present",
+  "description": "Building and optimizing backend infrastructure, developing scalable backend solutions, and integrating AI-driven capabilities into the platform to enhance functionality and performance."
+}
   ],
   education: [
     {
