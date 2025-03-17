@@ -8,9 +8,49 @@ export const DATA = {
   locationLink: "https://www.google.com/maps/place/dhanbad",
   description:
     "Aspiring software developer and passionate web developer. I love building projects and helping others. Very active on Twitter.",
-  summary:
-    "I’m Rupesh Sharma, an aspiring software developer and currently [student at NIT Agartala, specializing in Electronics and Instrumentation](/#education). I enjoy developing websites and am currently working on myPlacements a platform designed to simplify on-campus placements for both colleges and recruiters.",
   avatarUrl: "/me.jpeg",
+  skillCategories: {
+    "Frontend Development": [
+      "React",
+      "Next.js",
+      "Typescript",
+      "Javascript",
+      "Tailwind CSS",
+      "Bootstrap",
+      "Material UI",
+      "Charts.js",
+      "React Hook Form",
+      "React Router",
+      "React Query",
+    ],
+    "Backend Development": [
+      "Node.js",
+      "MongoDB",
+      "Postgresql",
+      "Express.js",
+    ],
+    "DevOps & Cloud": [
+      "Docker",
+      "Kubernetes",
+      "Azure",
+      "AWS",
+      "CI/CD",
+      "Git",
+      "Github",
+    ],
+    "Programming & Computer Science": [
+      "C++",
+      "System Design",
+      "Data Structures and Algorithms",
+      "Object Oriented Programming",
+      "Computer Networks",
+      "Operating Systems",
+    ],
+    "AI & Machine Learning": [
+      "Machine Learning",
+      "Artificial Intelligence",
+    ],
+  },
   skills: [
     "React",
     "Next.js",
@@ -23,6 +63,25 @@ export const DATA = {
     "Kubernetes",
     "Tailwind",
     "C++",
+    "System Design",
+    "Data Structures and Algorithms",
+    "Object Oriented Programming",
+    "Machine Learning",
+    "Artificial Intelligence",
+    "Computer Networks",
+    "Operating Systems", 
+    "Bootstrap",
+    "Tailwind CSS",
+    "Material UI",
+    "Charts.js",
+    "React Hook Form",
+    "React Router",
+    "React Query",
+    "Azure",
+    "AWS",
+    "CI/CD",
+    "Git",
+    "Github",
   ],
   contact: {
     email: "rksharmagmo@gmail.com",
@@ -90,46 +149,13 @@ export const DATA = {
     },
   ],
   projects: [
-    // {
-    //   title: "Chat Collect",
-    //   href: "https://chatcollect.com",
-    //   dates: "Jan 2024 - Feb 2024",
-    //   active: true,
-    //   description:
-    //     "With the release of the [OpenAI GPT Store](https://openai.com/blog/introducing-the-gpt-store), I decided to build a SaaS which allows users to collect email addresses from their GPT users. This is a great way to build an audience and monetize your GPT API usage.",
-    //   technologies: [
-    //     "Next.js",
-    //     "Typescript",
-    //     "PostgreSQL",
-    //     "Prisma",
-    //     "TailwindCSS",
-    //     "Stripe",
-    //     "Shadcn UI",
-    //     "Magic UI",
-    //   ],
-    //   links: [
-    //     {
-    //       type: "Website",
-    //       href: "https://llm.report",
-    //       icon: <Icons.globe className="size-3" />,
-    //     },
-    //     {
-    //       type: "Source",
-    //       href: "https://github.com/dillionverma/llm.report",
-    //       icon: <Icons.github className="size-3" />,
-    //     },
-    //   ],
-    //   image: "",
-    //   video:
-    //     "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
-    // },
     {
       title: "DocQuify",
       href: "https://docquify.vercel.app/",
-      dates: "Aug 2024 - Sep 2024",
       active: true,
+      projectTag: "AI Document Analysis",
       description:
-        "I created DocQuify, a SaaS platform that enables users to upload PDFs and ask questions based on document content. It utilizes OpenAI API and Pinecone for real-time context-based querying, with secure authentication through Clerk for Google and GitHub logins, and document storage on AWS S3. This platform streamlines document analysis, offering an efficient and scalable solution for extracting valuable information from large texts.",
+      "AI-powered document analysis SaaS with accurate answers and context-based querying",
       technologies: [
         "NextJS",
         "Typescript",
@@ -150,55 +176,19 @@ export const DATA = {
           href: "https://docquify.vercel.app/",
           icon: <Icons.globe className="size-3" />,
         },
-        {
-          type: "Source",
-          href: "https://github.com/rsharma828/DocQuify",
-          icon: <Icons.github className="size-3" />,
-        },
       ],
       image: "",
       video:
         "https://utfs.io/f/dRTv2GuJ9j8O4kigkUPMNhj1uwPVJbvsnYIa2zriKO5Emode",
     },
-    {
-      title: "Pay-Up",
-      href: "https://github.com/rsharma828/payUp-webapp",
-      dates: "Aug 2024",
-      active: true,
-      description:
-        "I developed PayUp, a peer-to-peer money transfer application that enables users to send and receive funds easily. The app is built with Node.js for the backend and React for the frontend, using PostgreSQL for secure data management. It features JWT for user authentication, allowing seamless bank withdrawals and processing webhooks for incoming transfers, delivering a fast and secure transaction experience.",
-      technologies: [
-        "NextJS",
-        "React",
-        "NodeJs",
-        "ExpressJs",
-        "PostgreSQL",
-        "Prisma",
-        "JWT",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://github.com/rsharma828/payUp-webapp",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: " https://github.com/rsharma828/payUp-webapp",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image:
-        "https://utfs.io/f/dRTv2GuJ9j8Oypr6ufYXs9DY7OAReJyaPlUkFuvIH2KCMcxT",
-      video: "",
-    },
+    
     {
       title: "Kolab",
       href: "https://kolab-at.vercel.app/",
-      dates: "Sep 2023",
       active: true,
+      projectTag: "Collaboration Tool",
       description:
-        "I built Kolab, a collaborative platform that facilitates real-time teamwork and project management. It supports shared document editing, task management, and cloud integration, all while ensuring smooth collaboration.",
+      "Collaboration tool with real-time document editing and team collaboration",
       technologies: ["Next.JS", "Node.Js", "LiveBlocks", "Clerk"],
       links: [
         {
@@ -206,55 +196,19 @@ export const DATA = {
           href: "https://kolab-at.vercel.app/",
           icon: <Icons.globe className="size-3" />,
         },
-        {
-          type: "Source",
-          href: "https://github.com/rsharma828/Kolab",
-          icon: <Icons.github className="size-3" />,
-        },
       ],
       image: "",
       video:
         "https://utfs.io/f/dRTv2GuJ9j8OfHiWM6z9CrN1MR6XtzQyEbB34iKouWqTgZkP",
     },
+    
     {
-      title: "Medium",
-      href: "https://github.com/rsharma828/medium-blog-app",
-      dates: "June 2024",
+      title: "HolidayHome",
+      href: "https://myholiday-homes-1.onrender.com/",
       active: true,
+      projectTag: "Booking Website",
       description:
-        "I developed a blogging website using React for the frontend and Cloudflare Workers for a serverless backend. The project employs JWT for secure user authentication and PostgreSQL for data storage, enabling users to create, edit, and manage blog posts efficiently. This modern tech stack ensures a seamless and secure user experience while optimizing performance.",
-      technologies: [
-        "React",
-        "NodeJs",
-        "Hono",
-        "PostgreSQL",
-        "Cloudflare worker",
-        "JWT",
-        "Prisma",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://github.com/rsharma828/medium-blog-app",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/rsharma828/medium-blog-app",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image:
-        "https://utfs.io/f/dRTv2GuJ9j8OWJtpZPKzcMKeBdRiY1t567Noy09rjfLVsPF2",
-      video: "",
-    },
-    {
-      title: "MyHoliday-Homes",
-      href: "",
-      dates: "May 2024",
-      active: true,
-      description:
-        "I created MyHoliday Homes, a hotel booking application that allows users to effortlessly search and book accommodations. Built with React for the frontend and Node.js for the backend, the app uses MongoDB for data storage. It features user authentication with JWT, real-time availability checks, and payment integration, providing a seamless experience for travelers looking to plan their holidays.",
+      "Hotel booking website with real-time availability checks and payment integration",
       technologies: [
         "TypeScript",
         "MongoDB",
@@ -271,15 +225,329 @@ export const DATA = {
           href: "https://myholiday-homes-1.onrender.com/",
           icon: <Icons.globe className="size-3" />,
         },
-        {
-          type: "Source",
-          href: "https://github.com/rsharma828/myHoliday-homes",
-          icon: <Icons.github className="size-3" />,
-        },
       ],
       image: "",
       video:
         "https://utfs.io/f/dRTv2GuJ9j8Od0kwn0uJ9j8OrCbW5NmDwxp6ZS3QcnLhHYzA",
+    },
+    {
+      title: "DocumentAI",
+      href: "https://pdfmanagement.web.app/",
+      active: true,
+      projectTag: "AI Document Analysis",
+      description:
+      "All in one document management system with notification via email and whatsapp",
+      technologies: [
+        "NextJS",
+        "Typescript",
+        "Clerk",
+        "Tailwind CSS",
+        "Stripe",
+        "React",
+        "NodeJs",
+        "ExpressJs",
+        "OpenAI",
+        "Vector DB",
+        "AWS S3",
+        "PostgreSQL",
+      ],
+      links: [
+      ],
+      image: "",
+      video: "https://tavus-videos-store.s3.ap-southeast-2.amazonaws.com/documnetai.mov",
+    },
+    {
+      title: "Origin Nutrition",
+      href: "https://originnutrition.in/shop/",
+      active: true,
+      projectTag: "Fintech",
+      description:
+        "E-commerce website for a nutrition company with payment integration and admin dashboard",
+      technologies: [
+        "NextJS",
+        "React",
+        "NodeJs",
+        "ExpressJs",
+        "PostgreSQL",
+        "Prisma",
+        "JWT",
+      ],
+      links: [
+      ],
+      image: "",
+      video: "https://tavus-videos-store.s3.ap-southeast-2.amazonaws.com/origin.mp4",
+    },
+    {
+      title: "Growto",
+      href: "https://growto.in/",
+      active: true,
+      projectTag: "Collaboration Tool",
+      description:
+       "Renting and selling platform for heavy machinery with payment integration and admin dashboard",
+      technologies: ["Next.JS", "Node.Js", "LiveBlocks", "Clerk"],
+      links: [
+        
+      ],
+      image: "",
+      video: "https://tavus-videos-store.s3.ap-southeast-2.amazonaws.com/growto.mov",
+    },
+    {
+      title: "GrowtoAdmin",
+      href: "https://superadmin.growto.in/",
+      active: true,
+      projectTag: "Content Platform",
+      description:
+        "Admin dashboard for Growto with user management, content management, and analytics",
+      technologies: [
+        "React",
+        "NodeJs",
+        "Hono",
+        "PostgreSQL",
+        "Cloudflare worker",
+        "JWT",
+        "Prisma",
+      ],
+      links: [
+      ],
+      image: "",
+      video: "https://tavus-videos-store.s3.ap-southeast-2.amazonaws.com/growtoadmin.mov",
+    },
+    {
+      title: "HouseHunt",
+      href: "https://realtor-web-3edff.web.app/",
+      active: true,
+      projectTag: "Property Management",
+      description:
+      "Property management system with real-time availability checks and payment integration",
+      technologies: [
+        "TypeScript",
+        "MongoDB",
+        "JWT",
+        "Tailwind CSS",
+        "React",
+        "NodeJs",
+        "ExpressJs",
+        "Zod",
+      ],
+      links: [
+      ],
+      image: "",
+      video: "https://tavus-videos-store.s3.ap-southeast-2.amazonaws.com/househunt.mp4",
+    },
+    {
+      title: "Toys Website",
+      href: "https://moonstartoys.com/",
+      active: true,
+      projectTag: "E-commerce",
+      description:
+      "E-commerce website for a toy company with payment integration and admin dashboard",
+      technologies: [
+        "React",
+        "Node.js",
+        "MongoDB",
+        "Express",
+        "Stripe",
+        "Tailwind CSS",
+      ],
+      links: [
+      ],
+      image: "",
+      video: "https://tavus-videos-store.s3.ap-southeast-2.amazonaws.com/toyswebsite.mov",
+    },
+    {
+      title: "School Website",
+      href: "https://stanthonysschool.org/",
+      active: true,
+      projectTag: "Education",
+      description:
+        "A comprehensive school website with features for students, parents, and staff. Includes course information, event calendar, student portal, and administrative dashboard for managing school operations.",
+      technologies: [
+        "Next.js",
+        "TypeScript",
+        "PostgreSQL",
+        "Tailwind CSS",
+        "Auth.js",
+      ],
+      links: [],
+      image: "",
+      video: "https://tavus-videos-store.s3.ap-southeast-2.amazonaws.com/schoolsite.mov",
+    },
+    {
+      title: "OmnexVenture",
+      href: "https://omnexventure.com/",
+      active: true,
+      projectTag: "Venture Capital",
+      description:
+      "Corporate website for a venture capital firm with modern design, interactive portfolio showcase, and investor relations portal",
+      technologies: [
+        "React",
+        "Next.js",
+        "Tailwind CSS",
+        "Framer Motion",
+        "Contentful CMS",
+      ],
+      links: [],
+      image: "",
+      video: "https://tavus-videos-store.s3.ap-southeast-2.amazonaws.com/omnexVenture.mov",
+    },
+    {
+      title: "Medgyrus",
+      href: "https://medgyrus.com/",
+      dates: "January 2024",
+      active: true,
+      projectTag: "Education & Training",
+      description:
+      "Educational website for students to attend online quiz and tests",
+      technologies: [
+        "React",
+        "Node.js",
+        "MongoDB",
+        "Express",
+        "Socket.io",
+        "Tailwind CSS",
+      ],
+      links: [],
+      image: "",
+      video: "https://tavus-videos-store.s3.ap-southeast-2.amazonaws.com/medgyrus.mov",
+    },
+    {
+      title: "MatriLab",
+      href: "https://matrimonysite.web.app/",
+      active: true,
+      projectTag: "Matrimonial Website",
+      description:
+      "Matrimonial website with user authentication, chat, and admin dashboard",
+      technologies: [
+        "React",
+        "Python",
+        "Django",
+        "PostgreSQL",
+        "D3.js",
+        "Material UI",
+      ],
+      links: [],
+      image: "",
+      video: "https://tavus-videos-store.s3.ap-southeast-2.amazonaws.com/matrilab.mov",
+    },
+    {
+      title: "IPL Cabs",
+      href: "https://iplcars.web.app/",
+      active: true,
+      projectTag: "Transportation",
+      description:
+      "Cab booking website with user authentication, payment integration, and admin dashboard",
+      technologies: [
+        "React Native",
+        "Node.js",
+        "MongoDB",
+        "Express",
+        "Google Maps API",
+        "Stripe",
+      ],
+      links: [],
+      image: "",
+      video: "https://tavus-videos-store.s3.ap-southeast-2.amazonaws.com/iplcabs.mov",
+    },
+    {
+      title: "Homely Interio",
+      href: "https://homelyinterio.com/",
+      active: true,
+      projectTag: "Interior Design",
+      description:
+      "Interior design website with user authentication, payment integration, and admin dashboard",
+      technologies: [
+        "React",
+        "Three.js",
+        "Node.js",
+        "MongoDB",
+        "Express",
+        "Tailwind CSS",
+      ],
+      links: [],
+      image: "",
+      video: "https://tavus-videos-store.s3.ap-southeast-2.amazonaws.com/homelyinterio.mov",
+    },
+    {
+      title: "Cake Shop",
+      href: "https://sp-holidays.web.app/",
+      active: true,
+      projectTag: "Food & Beverage",
+      description:
+      "E-commerce website for a cake shop with payment integration and admin dashboard",
+      technologies: [
+        "React",
+        "Node.js",
+        "MongoDB",
+        "Express",
+        "Stripe",
+        "Tailwind CSS",
+      ],
+      links: [],
+      image: "",
+      video: "https://tavus-videos-store.s3.ap-southeast-2.amazonaws.com/cakeshop.mov",
+    },
+    {
+      title: "Arvind Store",
+      href: "https://the-suriya-store.web.app/",
+      active: true,
+      projectTag: "Retail",
+      description:
+      "Multi-vendor marketplace with product listings, vendor management, and customer shopping experience",
+      technologies: [
+        "React",
+        "Node.js",
+        "MongoDB",
+        "Express",
+        "Redux",
+        "Tailwind CSS",
+      ],
+      links: [],
+      image: "",
+      video: "https://tavus-videos-store.s3.ap-southeast-2.amazonaws.com/arvindstore.mov",
+    },
+    {
+      title: "Pay-Up",
+      href: "https://github.com/rsharma828/payUp-webapp",
+      active: true,
+      description:
+      "Peer-to-peer money transfer application with user authentication, payment integration, and admin dashboard",
+      technologies: [
+        "NextJS",
+        "React",
+        "NodeJs",
+        "ExpressJs",
+        "PostgreSQL",
+        "Prisma",
+        "JWT",
+      ],
+      links: [
+       
+      ],
+      image:
+        "https://utfs.io/f/dRTv2GuJ9j8Oypr6ufYXs9DY7OAReJyaPlUkFuvIH2KCMcxT",
+      video: "",
+    },
+    {
+      title: "Medium",
+      href: "https://github.com/rsharma828/medium-blog-ap",
+      active: true,
+      description:
+      "Blog website with user authentication, payment integration, and admin dashboard",
+      technologies: [
+        "React",
+        "NodeJs",
+        "Hono",
+        "PostgreSQL",
+        "Cloudflare worker",
+        "JWT",
+        "Prisma",
+      ],
+      links: [
+       
+      ],
+      image:
+        "https://utfs.io/f/dRTv2GuJ9j8OWJtpZPKzcMKeBdRiY1t567Noy09rjfLVsPF2",
+      video: "",
     },
   ],
 } as const;
