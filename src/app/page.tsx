@@ -144,13 +144,19 @@ export default function Page() {
               <div className="border rounded-lg p-8 hover:shadow-md transition-shadow">
                 <h3 className="text-xl font-bold mb-3">Landing Pages</h3>
                 <p className="text-muted-foreground">Attractive, conversion-focused landing pages to showcase your product or service.</p>
+                <div className="mt-4 pt-4 border-t">
+                  <p className="font-semibold text-foreground">₹12,000 onwards</p>
+                </div>
               </div>
             </BlurFade>
             
             <BlurFade delay={BLUR_FADE_DELAY * 17.1}>
               <div className="border rounded-lg p-8 hover:shadow-md transition-shadow">
-                <h3 className="text-xl font-bold mb-3">Business Websites</h3>
-                <p className="text-muted-foreground">Professional websites that represent your brand and help you reach more customers.</p>
+                <h3 className="text-xl font-bold mb-3">Business & E-commerce Websites</h3>
+                <p className="text-muted-foreground">Professional websites that represent your brand and online stores with payment processing, inventory management, and customer accounts.</p>
+                <div className="mt-4 pt-4 border-t">
+                  <p className="font-semibold text-foreground">₹30,000 onwards</p>
+                </div>
               </div>
             </BlurFade>
             
@@ -158,6 +164,9 @@ export default function Page() {
               <div className="border rounded-lg p-8 hover:shadow-md transition-shadow">
                 <h3 className="text-xl font-bold mb-3">SaaS Applications</h3>
                 <p className="text-muted-foreground">Custom software-as-a-service applications with subscription models and user management.</p>
+                <div className="mt-4 pt-4 border-t">
+                  <p className="font-semibold text-foreground">₹50,000 onwards</p>
+                </div>
               </div>
             </BlurFade>
             
@@ -165,6 +174,9 @@ export default function Page() {
               <div className="border rounded-lg p-8 hover:shadow-md transition-shadow">
                 <h3 className="text-xl font-bold mb-3">AI-Powered Apps</h3>
                 <p className="text-muted-foreground">Applications leveraging AI capabilities to provide intelligent features and automation.</p>
+                <div className="mt-4 pt-4 border-t">
+                  <p className="font-semibold text-foreground">₹50,000 onwards</p>
+                </div>
               </div>
             </BlurFade>
             
@@ -172,13 +184,19 @@ export default function Page() {
               <div className="border rounded-lg p-8 hover:shadow-md transition-shadow">
                 <h3 className="text-xl font-bold mb-3">RAG Applications</h3>
                 <p className="text-muted-foreground">Retrieval-augmented generation systems that combine search with AI to provide accurate responses.</p>
+                <div className="mt-4 pt-4 border-t">
+                  <p className="font-semibold text-foreground">₹50,000 onwards</p>
+                </div>
               </div>
             </BlurFade>
             
             <BlurFade delay={BLUR_FADE_DELAY * 17.5}>
               <div className="border rounded-lg p-8 hover:shadow-md transition-shadow">
-                <h3 className="text-xl font-bold mb-3">E-commerce Solutions</h3>
-                <p className="text-muted-foreground">Online stores with payment processing, inventory management, and customer accounts.</p>
+                <h3 className="text-xl font-bold mb-3">Custom Software Development</h3>
+                <p className="text-muted-foreground">Tailored software solutions designed to address your specific business needs and challenges.</p>
+                <div className="mt-4 pt-4 border-t">
+                  <p className="font-semibold text-foreground">₹35,000 onwards</p>
+                </div>
               </div>
             </BlurFade>
           </div>
